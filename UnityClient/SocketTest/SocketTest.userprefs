@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Defines.cs">
+    <Files>
+      <File FileName="Assets\Defines.cs" Line="8" Column="2" />
+      <File FileName="Assets\Network\NetworkManager.cs" Line="409" Column="3" />
+      <File FileName="Assets\Packets.cs" Line="33" Column="3" />
+      <File FileName="Assets\PlayerManager.cs" Line="109" Column="37" />
+      <File FileName="Assets\Network\PacketHandlers\LoginHandler.cs" Line="21" Column="1" />
+      <File FileName="Assets\Network\PacketHandlers\SyncHandler.cs" Line="16" Column="4" />
+      <File FileName="Assets\Network\PacketHandlers\JoinHandler.cs" Line="11" Column="10" />
+      <File FileName="Assets\PlayerController.cs" Line="57" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="iTweenEditor" expanded="True" />
+            <Node name="Network" expanded="True">
+              <Node name="PacketHandlers" expanded="True" />
+            </Node>
+            <Node name="Defines.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FB61C3B9-460E-8E82-0D86-E1408A6780F7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CubeMovements.cs" />
+     <Compile Include="Assets\Defines.cs" />
+     <Compile Include="Assets\JsonFX\EcmaScriptIdentifier.cs" />
+     <Compile Include="Assets\JsonFX\EcmaScriptWriter.cs" />
+     <Compile Include="Assets\JsonFX\IDataReader.cs" />
+     <Compile Include="Assets\JsonFX\IDataWriter.cs" />
+     <Compile Include="Assets\JsonFX\IJsonSerializable.cs" />
+     <Compile Include="Assets\JsonFX\JsonDataReader.cs" />
+     <Compile Include="Assets\JsonFX\JsonDataWriter.cs" />
+     <Compile Include="Assets\JsonFX\JsonIgnoreAttribute.cs" />
+     <Compile Include="Assets\JsonFX\JsonNameAttribute.cs" />
+     <Compile Include="Assets\JsonFX\JsonReader.cs" />
+     <Compile Include="Assets\JsonFX\JsonReaderSettings.cs" />
+     <Compile Include="Assets\JsonFX\JsonSerializationException.cs" />
+     <Compile Include="Assets\JsonFX\JsonSpecifiedPropertyAttribute.cs" />
+     <Compile Include="Assets\JsonFX\JsonToken.cs" />
+     <Compile Include="Assets\JsonFX\JsonWriter.cs" />
+     <Compile Include="Assets\JsonFX\JsonWriterSettings.cs" />
+     <Compile Include="Assets\JsonFX\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\Logger.cs" />
+     <Compile Include="Assets\Network\NetworkManager.cs" />
+     <Compile Include="Assets\Network\PacketHandlers\HeartBeatHandler.cs" />
+     <Compile Include="Assets\Network\PacketHandlers\JoinHandler.cs" />
+     <Compile Include="Assets\Network\PacketHandlers\LoginHandler.cs" />
+     <Compile Include="Assets\Network\PacketHandlers\MoveHandler.cs" />
+     <Compile Include="Assets\Network\PacketHandlers\PacketHandler.cs" />
+     <Compile Include="Assets\Network\PacketHandlers\SyncHandler.cs" />
+     <Compile Include="Assets\Network\Utils.cs" />
+     <Compile Include="Assets\Packets.cs" />
+     <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\PlayerManager.cs" />
+     <Compile Include="Assets\Query-Chan\Scripts\CameraAction.cs" />
+     <Compile Include="Assets\Query-Chan\Scripts\GUIController.cs" />
+     <Compile Include="Assets\Query-Chan\Scripts\GUIControllerFlying.cs" />
+     <Compile Include="Assets\Query-Chan\Scripts\QueryAnimationController.cs" />
+     <Compile Include="Assets\Query-Chan\Scripts\QueryEmotionalController.cs" />
+     <Compile Include="Assets\Query-Chan\Scripts\QuerySoundController.cs" />
+     <Compile Include="Assets\iTweenEditor\Examples\StartAndStopTween.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\EventParamMappings.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransform.cs" />
+     <Compile Include="Assets\iTweenEditor\Helper Classes\Vector3OrTransformArray.cs" />
+     <Compile Include="Assets\iTweenEditor\iTween.cs" />
+     <Compile Include="Assets\iTweenEditor\iTweenEvent.cs" />
+     <Compile Include="Assets\iTweenEditor\iTweenPath.cs" />
+     <None Include="Assets\Query-Chan\Shaders\PQ_Skin.shader" />
+     <None Include="Assets\iTweenEditor\README.txt" />
+     <None Include="Assets\Query-Chan\Shaders\PQ_TransBlue.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
